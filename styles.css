@@ -16,6 +16,7 @@ header {
 
 header h1 {
     font-size: 28px;
+    color: blue;
 }
 
 /* Navigation Menu */
@@ -64,12 +65,12 @@ main {
 
 .profile h2 {
     margin-top: 10px;
-    color: #333;
+    color: red;
 }
 
 .profile p {
     font-size: 16px;
-    color: #777;
+    color: green;
 }
 
 /* Footer */
