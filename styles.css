@@ -1,6 +1,10 @@
 body {
-  background: rgb(125, 198, 205);
+  background: rgb(20, 150, 175);
   color: rgb(45, 45, 45);
   padding: 10px;
   font-family: Arial, sans-serif;
+}
+
+li {
+    font-family: "Arial", "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
 }
