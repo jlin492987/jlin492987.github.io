@@ -5,4 +5,7 @@ body {
   padding: 10px;
 }
 
-
+.flags {
+  width: 25px;
+  border-radius: 20px;
+}
