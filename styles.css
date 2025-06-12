@@ -13,14 +13,30 @@ header {
     padding: 10px 0;
 }
 
-main {
-    width: 80%;
+.leftbox {
+    width: 35%;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
-    transform: translate(-25px, 0px);
 }
+
+.rightbox {
+    width: 35%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    background-color: white;
+}
+
 
 a {
     color: #007bff;
