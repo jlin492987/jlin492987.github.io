@@ -4,13 +4,30 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 header {
     background-color: #000000;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header h1 a {
+    margin-left: 4%;
+    color: white;
+    margin: 25px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 380%;
+}
+
+header li {
+    margin: 10px;
 }
 
 .container {
@@ -19,7 +36,6 @@ header {
     grid-auto-rows: 1fr;
     gap: 10px;
 }
-
 
 .box {
     width: 80%;
@@ -37,6 +53,8 @@ a {
     color: #007bff;
     text-decoration: none;
 }
+
+
 
 footer {
     text-align: center;
