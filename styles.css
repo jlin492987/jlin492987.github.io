@@ -23,7 +23,7 @@ header h1 a {
 header ul {
     list-style-type: none;
     display: flex;
-    margin-left: 380%;
+    margin-left: 250%;
 }
 
 header li {
@@ -69,4 +69,10 @@ footer {
 .flags {
   width: 16px;
     top: 2px;
+}
+
+.songs {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
