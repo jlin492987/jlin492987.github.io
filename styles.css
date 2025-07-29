@@ -67,7 +67,7 @@ footer {
 }
 
 .flags {
-  width: 16px;
+    width: 16px;
     top: 2px;
 }
 
@@ -75,4 +75,9 @@ footer {
     text-align: center;
     margin: 10px;
     padding: 10px;
+}
+
+.portfolioText {
+    text-align: center;
+    font-size: 48px;
 }
